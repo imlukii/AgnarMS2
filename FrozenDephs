@@ -1,0 +1,8 @@
+FrozenDepths.MouseButton1Click:Connect(function()
+    local args = {
+        [1] = "Frozen Depths"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+ 
+end)
