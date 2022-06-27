@@ -1,0 +1,17 @@
+QuickSell.MouseButton1Click:Connect(function()
+    local player = game.Players.LocalPlayer
+    local char = player.Character
+ 
+    local args = {
+        [1] = "The Overworld SurfaceSell"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Surface"
+}
+ 
+game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+ 
+end)
