@@ -1,0 +1,41 @@
+UnlockIsland.MouseButton1Click:Connect(function()
+    local args = {
+        [1] = "Hidden Treasure"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+ 
+    wait(.5)
+    local args = {
+        [1] = "Frozen Depths"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+ 
+    wait(.5)
+    local args = {
+        [1] = "Gloomy Basin"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+ 
+    wait(.5)
+    local args = {
+        [1] = "Molten Core"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+ 
+    wait(.5)
+    local args = {
+        [1] = "The Underworld"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+    wait(.5)
+    local args = {
+        [1] = "Crystal Cavern"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+end)
