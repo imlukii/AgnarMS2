@@ -1,0 +1,11 @@
+ReduceLag.MouseButton1Click:Connect(function()
+    game.Lighting.Bloom.Enabled = false
+    game.Lighting.GlobalShadows = 0
+    game.Lighting.DepthOfField.Enabled = false
+    game.Lighting.FogEnd = 9e9
+    game.Lighting.EnvironmentDiffuseScale = 0
+    game.Lighting.EnvironmentSpecularScale = 0
+    game.Lighting.Brightness = 0
+    wait()
+    print("Completed")
+end)
