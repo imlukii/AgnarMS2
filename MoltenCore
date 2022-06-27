@@ -1,0 +1,8 @@
+MoltenCore.MouseButton1Click:Connect(function()
+    local args = {
+        [1] = "Molten Core"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+ 
+end)
