@@ -1,0 +1,8 @@
+GloomyBasin.MouseButton1Click:Connect(function()
+    local args = {
+        [1] = "Gloomy Basin"
+    }
+ 
+    game:GetService("ReplicatedStorage").Events.Teleport:FireServer(unpack(args))
+ 
+end)
